@@ -21,8 +21,6 @@ def main(argv=None, save_main_session=True):
   parser.add_argument(
       '--output',
       dest='output',
-      # CHANGE 1/6: (OPTIONAL) The Google Cloud Storage path is required
-      # for outputting the results.
       default='',
       help='Output file to write results to.')
 
